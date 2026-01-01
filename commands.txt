@@ -77,3 +77,5 @@ git add .
 git commit -m "test complited pushing from main branch after merging and testing Performance"
 
 git push
+
+git push --all
