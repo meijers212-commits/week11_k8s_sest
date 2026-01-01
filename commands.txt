@@ -12,5 +12,9 @@ docker run -d --name cc -p 8501:8501 elazarmeijers/streamlit-test:v1
 
 docker push elazarmeijers/streamlit-test:v1 
 
+git add commands.txt
 
+gti commit -m "hgfdsdfghjhgf"
+
+git push -u origin dockerfile
 
