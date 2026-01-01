@@ -4,4 +4,9 @@ python -m venv .venv
 
 pip install -r requirements.txt
 
+cd  streamlit_minikube_app-main
+
+docker build -t elazarmiejers/strimliteimage:v1 .
+
+docker push elazarmiejers/strimliteimage:v1
 
