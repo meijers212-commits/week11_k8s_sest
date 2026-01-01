@@ -26,6 +26,7 @@ git merge dockerfile
 
 git checkout -b pod_yaml
 
+gti pull orgin main
 
 
  
