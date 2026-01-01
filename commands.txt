@@ -79,3 +79,5 @@ git commit -m "test complited pushing from main branch after merging and testing
 git push
 
 git push --all
+
+git checkout -b screensot
