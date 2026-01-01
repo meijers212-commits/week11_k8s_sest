@@ -20,13 +20,20 @@ gti commit -m "hgfdsdfghjhgf"
 
 git push -u origin dockerfile
 
-git checkout main 
+git switch dockerfil 
+
+git add . 
+
+git commit -m "changing dockerfile and commands.txt"
+
+git push
+
+git ckeckout main
 
 git merge dockerfile
 
-git checkout -b pod_yaml
+git add . 
 
-gti pull orgin main
+git commit -m "conniting and miving to pod_yaml branch to work on pod yaml file"
 
-
- 
+git pull

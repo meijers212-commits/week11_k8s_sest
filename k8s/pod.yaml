@@ -10,5 +10,5 @@ spec:
       image: lazarmiejers/streamlit-test:v1
       imagePullPolicy: Always
       ports:
-        - containerPort: 8501
+        - containerPort: 8080
       
