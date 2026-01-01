@@ -48,8 +48,32 @@ git checkout main
 
 git merge pod_yaml
 
- git checkout -b service_yaml
+git checkout -b service_yaml
 
- kubectl apply -f k8s
+kubectl apply -f k8s
 
- minikube service streamlit-service --url 
+minikube service streamlit-service --url 
+
+git add . 
+
+git commit -m "add service.yaml and service_yaml_readme.md and adtint commands.txt file
+
+git checkout main
+
+git merge service_yaml
+
+kubectl apply -f k8s 
+
+minikube status
+
+minikube service streamlit-service --url
+
+minikube logs streamlite
+
+kubectl describe pod
+
+git add .
+
+git commit -m "test complited pushing from main branch after merging and testing Performance"
+
+git push
