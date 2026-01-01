@@ -36,4 +36,4 @@ git add .
 
 git commit -m "conniting and miving to pod_yaml branch to work on pod yaml file"
 
-git push
+git pull
