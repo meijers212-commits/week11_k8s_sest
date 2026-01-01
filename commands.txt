@@ -6,7 +6,25 @@ pip install -r requirements.txt
 
 cd  streamlit_minikube_app-main
 
-docker build -t elazarmiejers/strimliteimage:v1 .
+docker build -t elazarmiejers/streamlit-test:v1 .
 
-docker push elazarmiejers/strimliteimage:v1
+streamlit run main.py --server.port 8080 --server.address=0.0.0.0
+
+docker run -d --name cc -p 8080:8080 elazarmeijers/streamlit-test:v1
+
+docker push elazarmeijers/streamlit-test:v1 
+
+git add commands.txt
+
+gti commit -m "hgfdsdfghjhgf"
+
+git push -u origin dockerfile
+
+git checkout main 
+
+git merge dockerfile
+
+git checkout -b pod_yaml
+
+
 
