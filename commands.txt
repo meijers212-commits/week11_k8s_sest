@@ -39,3 +39,17 @@ git commit -m "conniting and miving to pod_yaml branch to work on pod yaml file"
 git pull
 
 minikube dashboard
+
+git add . 
+
+git commit -m "adding pod.yaml file"
+
+git checkout main
+
+git merge pod_yaml
+
+ git checkout -b service_yaml
+
+ kubectl apply -f k8s
+
+ minikube service streamlit-service --url 
