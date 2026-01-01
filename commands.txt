@@ -80,3 +80,16 @@ git push
 
 git push --all
 
+ git checkout -b screensot
+
+ git commit -m "ading screensat and screnshot.md"
+
+ git checkout main
+
+ git merge screensot
+
+ git add . 
+
+ git commit -m "finel commit avriting complited b'h"
+
+ git push --all
