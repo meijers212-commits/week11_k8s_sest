@@ -6,7 +6,11 @@ pip install -r requirements.txt
 
 cd  streamlit_minikube_app-main
 
-docker build -t elazarmiejers/strimliteimage:v1 .
+docker build -t elazarmiejers/streamlit-test:v1 .
 
-docker push elazarmiejers/strimliteimage:v1
+docker run -d --name cc -p 8501:8501 elazarmeijers/streamlit-test:v1
+
+docker push elazarmeijers/streamlit-test:v1 
+
+
 
